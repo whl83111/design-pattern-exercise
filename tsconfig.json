@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "esModuleInterop": true,
+        "target": "ESNext",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "outDir": "exercises/dist",
+        "baseUrl": "exercises",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "exercises/*"
+            ]
+        }
+    },
+}
